@@ -43,7 +43,7 @@ def btnEquals():
     operator = ""
 
 
-#**************************Calculator Button************************
+#**************************Calculator Buttons************************
 
 btn7 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='7',bg="powder blue",command=lambda:btnClick(7)).grid(row=2,column=0)
@@ -57,7 +57,7 @@ btn9 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),wid
 btnAdd = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='+',bg="powder blue",command=lambda:btnClick("+")).grid(row=2,column=3)
 
-#**************************
+#*******************************************************************
 
 btn4 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='4',command=lambda:btnClick(4)).grid(row=3,column=0)
@@ -70,7 +70,7 @@ btn6 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),wid
 
 btnSub = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='-',bg="powder blue",command=lambda:btnClick("-")).grid(row=3,column=3)
-#**********************
+#******************************************************************
 
 btn1 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='1',command=lambda:btnClick(1)).grid(row=4,column=0)
@@ -83,7 +83,7 @@ btn3 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),wid
 
 btnmult= Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='*',bg="powder blue",command=lambda:btnClick('*')).grid(row=4,column=3)
-#*********************
+#*****************************************************************
 
 btn0 = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='0',bg="powder blue",command=lambda:btnClick(0)).grid(row=5,column=0)
@@ -96,11 +96,6 @@ btnEqual = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold')
 
 btnDiv = Button(Cal_F,padx=16,pady=1,bd=7,fg="black",font =('arial',16,'bold'),width=4,
                   text='/',bg="powder blue",command=lambda:btnClick("/")).grid(row=5,column=3)
-
-
-
-
-
 
 
 root.mainloop()
